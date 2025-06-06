@@ -1,6 +1,6 @@
 # Data Files (ignore large or raw data)
-data/
-output/
+data/*.csv
+output/*.csv
 
 # EXCEPT this
 !data/GOTY_Steam_reviews_english_sample.csv

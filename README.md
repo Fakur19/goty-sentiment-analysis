@@ -21,12 +21,15 @@ The analysis pipeline was developed using Python in a Jupyter Notebook environme
 * **Core Model:** Sentiment analysis was performed using the `nlptown/bert-base-multilingual-uncased-sentiment` model from the Hugging Face Transformers library.
 * **Long Text Handling:** A content selection strategy was implemented to process reviews exceeding BERT's 512-token limit by creating a representative summary from the start, middle, and end sections of the original text.
 * **Tech Stack:**
-    * **Programming Language:** Python 3
+    * **Programming Language:** Python
     * **Core Libraries:** Pandas, NumPy, scikit-learn, PyTorch
     * **NLP:** Hugging Face Transformers
     * **Web Scraping:** BeautifulSoup, Requests
     * **Visualization:** Matplotlib, Seaborn
 
-## Key Findings
+# Key Findings
 
-* While the overall sentiment towards GOTY-winning games is predominantly positive (with a model accuracy of ~89%), there is significant variance in reception between different
+* While the overall sentiment towards GOTY-winning games is predominantly positive (with a model accuracy of ~89%), there is significant variance in reception between different titles.
+* **Story** and **Gameplay** are the most frequently discussed aspects across all reviews.
+* Positive reviews often highlight **Story**, **Gameplay**, and **Graphics**.
+* Negative reviews frequently focus on **Performance** issues (bugs, crashes, optimization) and **Difficulty**.
