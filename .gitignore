@@ -1,0 +1,52 @@
+# Data Files (ignore large or raw data)
+data/
+output/
+
+# EXCEPT this
+!data/GOTY_Steam_reviews_english_sample.csv
+!output/result_sample.csv
+
+# Environment and Configuration
+venv/
+.venv/
+.env
+config.ini
+secrets.json
+credentials.py
+
+# Jupyter Notebook Files
+.ipynb_checkpoints/
+
+# IDE and System Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.iml
+*.project
+*.settings
+
+# Python Specific
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# Temporary Files
+*.tmp
+*.bak
+*.swp
+*~
+*.log
+
+# Output and Artifacts (adjust as needed)
+figures/
+plots/
+models/
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.onnx
