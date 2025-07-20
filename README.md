@@ -73,7 +73,8 @@ The focus of discussion varies significantly between games. While some are prais
 ## 📂 Repository Content
 - **/data**: Contains the CSV files with aspect counts for positive, negative, and all reviews.
 - **/img**: Contains images and visual assets used in the README and project.
-- `Sentiment Analysis of GOTY Reviews.ipynb`: The main Jupyter Notebook with the full analysis pipeline.
+- `data_analysis.ipynb`: The main Jupyter Notebook with the full analysis pipeline.
+- `analysis_with_version_control.ipynb`: Additional analysis.
 - `requirements.txt`: A list of Python libraries required to run the project.
 
 ---
@@ -92,7 +93,7 @@ The focus of discussion varies significantly between games. While some are prais
     source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
     pip install -r requirements.txt
     ```
-3.  Launch Jupyter Notebook and open `Sentiment Analysis of GOTY Reviews.ipynb`.
+3.  Launch Jupyter Notebook and open `data_analysis.ipynb` for whole analysis and `analysis_with_version_control.ipynb` for analysis with patch/update/dlc for each game.
     ```bash
     jupyter notebook
     ```

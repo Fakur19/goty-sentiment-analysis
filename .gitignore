@@ -1,6 +1,8 @@
 # Data Files (ignore large or raw data)
 data/*.csv
 output/*.csv
+notebooks/*.png
+notebooks/*.csv
 
 # EXCEPT this
 !data/GOTY_Steam_reviews_english_sample.csv
